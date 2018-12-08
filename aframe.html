@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aframe de Nathaniel Roman</title>
+        <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            
+            <a-entity geometry="primitive:box; width: 5"
+            material="color: blue"
+            position="0 2 0"></a-entity>
+            <a-box color="#F80101"
+            width="0.6"
+            height="2"
+            depth="0.5"
+            position="0 3 0">
+            </a-box>
+            <a-entity geometry="primitive: cylinder; height: 1; radius: .5" position= "0 -2 -2" color="#01DF01"></a-entity>
+            <a-entity geometry="primitive: sphere; radius: 2" width="0.5" height="0.5" position= "0 -2 -5"></a-entity>
+            <a-plane color="#0404B4"
+            height="2"
+            width="5"
+            side="double"
+            rotation="90 0 0"
+            position="0 -2 0">
+            </a-plane>
+            <a-sky color="#6E6E6E"></a-sky>
+        </a-scene>
+    </body>
+</html>
